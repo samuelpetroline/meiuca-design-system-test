@@ -7,8 +7,6 @@ StyleDictionary.registerTransform({
     return token.attributes.category === 'height'
   },
   transformer: token => {
-    console.log(token)
-
     return Number(token.value.replace(/\D/g, ''))
   },
 })

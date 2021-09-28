@@ -36,7 +36,7 @@ type SpacingProps = {
   spacing: SpacingOptions
 }
 
-function getSpacing(spacing: SpacingOptions): string {
+function getSpacing(spacing: SpacingOptions): number {
   if (spacing === 'quarck') return spacingSizeQuarck.number
   if (spacing === 'nano') return spacingSizeNano.number
   if (spacing === 'xxxs') return spacingSizeXxxs.number

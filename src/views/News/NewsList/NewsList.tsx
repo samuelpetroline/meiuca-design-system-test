@@ -11,7 +11,6 @@ import { NewsListContainer, NewsListSuccessItem } from './NewsListStyles'
 
 export default function NewsList(): JSX.Element {
   const queryInfo = useInfiniteQuery('news', async ({ pageParam }) => {
-    console.log(pageParam)
     const res = await fetchNews(pageParam)
 
     return res.data
