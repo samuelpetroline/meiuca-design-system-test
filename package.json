@@ -1,0 +1,65 @@
+{
+  "name": "meiucanewsapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "tokens:build": "node style-dictionary.config.js",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@react-navigation/native": "6.0.2",
+    "@react-navigation/stack": "6.0.7",
+    "axios": "0.21.4",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-safe-area-context": "3.3.2",
+    "react-query": "3.24.4",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.5",
+    "@babel/runtime": "7.8.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/jest": "25.2.3",
+    "@types/react-native": "0.63.2",
+    "@types/react-test-renderer": "16.9.2",
+    "@types/styled-components-react-native": "^5.1.1",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "babel-jest": "25.1.0",
+    "babel-plugin-module-resolver": "4.1.0",
+    "eslint": "7.6.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.23.2",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-react-native": "3.10.0",
+    "jest": "25.1.0",
+    "metro-react-native-babel-preset": "0.59.0",
+    "prettier": "2.2.1",
+    "react-native-dotenv": "3.2.0",
+    "react-test-renderer": "16.13.1",
+    "style-dictionary": "3.0.2",
+    "typescript": "3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "16"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
